@@ -82,7 +82,7 @@ our @EXPORT = qw(
 	
 );
 
-our $VERSION = '1.0.9';
+our $VERSION = '1.0.10';
 
 # ******************** PUBLIC Class Methods ********************
 

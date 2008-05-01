@@ -2,6 +2,10 @@
 abstract: Configuration File
 author: 
   - Matt Luker  C<< <mluker@cpan.org> >>
+build_requires: 
+  Test::More: 0
+  Test::Perl::Critic: 0
+  Test::Pod: 0
 distribution_type: module
 generated_by: Module::Install version 0.680
 license: perl
@@ -15,4 +19,4 @@ no_index:
     - t
 requires: 
   perl: 5.8.0
-version: 1.0.9
+version: 1.0.10

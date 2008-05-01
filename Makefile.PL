@@ -12,6 +12,10 @@ use inc::Module::Install;
 name 'RSH-ConfigFile';
 all_from 'lib/RSH/ConfigFile.pm';
 
+build_requires 'Test::More';
+build_requires 'Test::Pod';
+build_requires 'Test::Perl::Critic';
+
 install_script glob('script/*.pl');
 auto_install;
 WriteAll;
